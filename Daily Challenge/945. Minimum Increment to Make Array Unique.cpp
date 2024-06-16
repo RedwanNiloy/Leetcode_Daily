@@ -2,6 +2,7 @@ Approach 1
 Using sort ()
 
 Time complexity: O(nlogn)
+Space Complexity : O(1)
 
 class Solution {
 public:
@@ -38,6 +39,7 @@ return c;
 Approach 2
 Using counting sort
 Time complexity : O(n)
+Space complexity : O(n)
 
 
 class Solution {
