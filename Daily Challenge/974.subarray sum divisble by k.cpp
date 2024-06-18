@@ -16,7 +16,7 @@ public:
             
             // Adjust negative remainders to be positive
             if (mod < 0) {
-                mod += k;
+                mod +=k;
             }
             
             // If this remainder has been seen before, it means there are subarrays ending here that are divisible by k
